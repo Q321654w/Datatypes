@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Datatypes
+﻿namespace Datatypes
 {
     public class IntConverter : IConverter<int>
     {
-        private BitInByte _bitInByte;
+        private readonly BitInByte _bitInByte;
 
         public IntConverter(BitInByte bitInByte)
         {
