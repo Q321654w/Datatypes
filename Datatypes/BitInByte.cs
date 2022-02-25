@@ -3,7 +3,7 @@
     public class BitInByte
     {
         private const byte BIT_IN_BYTE = 8;
-
+        
         public byte Value()
         {
             return BIT_IN_BYTE;
@@ -15,7 +15,6 @@
             {
                 if((value >> i & 1) == 1)
                     return i + 1;
-                    
             }
 
             return 0;

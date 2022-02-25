@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Datatypes
 {
@@ -28,57 +29,53 @@ namespace Datatypes
         public Value ConvertFrom(int value)
         {
             var bitInByte = _bitInByte.Value();
-            var bitStack = BitStack(value);
 
-            var count = bitStack.Count;
-            var byteCount = Ceil((float) count / bitInByte);
-            var bitArray = BitArray(ref byteCount, bitStack, ref bitInByte);
+            var bitCount = BitCount(value);
+            var bitArray = BitArray(ref bitCount, ref value, ref bitInByte);
 
-            return new Value(bitArray, count, _bitInByte);
+            return new Value(bitArray, bitCount, _bitInByte);
         }
 
-        private byte[] BitArray(ref int byteCount, Stack<bool> bitStack, ref byte byteInBit)
+        private byte[] BitArray(ref int bitCount, ref int value, ref byte bitInByte)
         {
+            var byteCount = Ceil((float) bitCount / bitInByte);
             var bitArray = new byte[byteCount];
 
-            for (int i = 0; i < byteCount; i++)
+            for (var i = 0; i < byteCount; i++)
             {
-                byte currentByte = 0;
+                var currentByte = 0;
 
-                for (int j = 0; j < byteInBit; j++)
+                for (var j = 0; j < bitInByte; j++)
                 {
-                    var bit = false;
-
-                    if (bitStack.Count > 0)
-                        bit = bitStack.Pop();
-
-                    if (bit)
+                    if ((value & 1) != 1)
                     {
-                        currentByte += (byte) (1 << j);
+                        value >>= 1;
+                        continue;
                     }
+
+                    currentByte += 1 << j;
+                    value >>= 1;
                 }
 
-                bitArray[i] = currentByte;
+                bitArray[i] = (byte) currentByte;
             }
 
             return bitArray;
         }
 
-        private Stack<bool> BitStack(int value)
+        private int BitCount(int value)
         {
-            var bitStack = new Stack<bool>();
-
-            for (int index = 0; index < value; index++)
+            var count = 0;
+            while (value > 0)
             {
-                var shiftedValue = value >> index;
-                if (shiftedValue <= 0)
-                    break;
+                if ((value & 1) != 1)
+                    continue;
 
-                var bit = (shiftedValue & 1) == 1;
-                bitStack.Push(bit);
+                value >>= 1;
+                count++;
             }
 
-            return bitStack;
+            return count;
         }
 
         private int Ceil(float num)

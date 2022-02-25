@@ -11,14 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7ca81ab-b87a-4631-b7d3-d1cad241a350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Datatypes.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Datatypes/ByteInBit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Datatypes/Datatypes.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Datatypes/IConverter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Datatypes/IntConverter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Datatypes/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Datatypes/Value.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Datatypes/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Datatypes/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Datatypes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Datatypes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datatypes/BitInByte.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Datatypes/BitInByte.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datatypes/IntConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Datatypes/IntConverter.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +26,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Datatypes/Value.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Datatypes/ByteInBit.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Datatypes/IntConverter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Datatypes/BitInByte.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Datatypes/IConverter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Datatypes/IntConverter.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -40,8 +36,9 @@
         <option value="$PROJECT_DIR$/Datatypes/Class1.cs" />
         <option value="$PROJECT_DIR$/Datatypes/BitDataType.cs" />
         <option value="$PROJECT_DIR$/Datatypes/Value.cs" />
-        <option value="$PROJECT_DIR$/Datatypes/IntConverter.cs" />
         <option value="$PROJECT_DIR$/Datatypes/ByteInBit.cs" />
+        <option value="$PROJECT_DIR$/Datatypes/BitInByte.cs" />
+        <option value="$PROJECT_DIR$/Datatypes/IntConverter.cs" />
       </list>
     </option>
   </component>
@@ -70,6 +67,7 @@
       <workItem from="1645181607256" duration="2503000" />
       <workItem from="1645619230684" duration="44000" />
       <workItem from="1645619532499" duration="723000" />
+      <workItem from="1645806257242" duration="1829000" />
     </task>
     <servers />
   </component>
