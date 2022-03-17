@@ -44,7 +44,7 @@
 
                 for (var j = 0; j < bitInByte; j++)
                 {
-                    if ((value & 1) != 1)
+                    if ((value & 1) == 0)
                     {
                         value >>= 1;
                         continue;
@@ -63,11 +63,9 @@
         private int BitCount(int value)
         {
             var count = 0;
+            
             while (value > 0)
             {
-                if ((value & 1) != 1)
-                    continue;
-
                 value >>= 1;
                 count++;
             }
