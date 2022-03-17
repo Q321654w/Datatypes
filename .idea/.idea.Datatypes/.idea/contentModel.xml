@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\PC\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\PC\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_Datatypes.2087055159.00" t="ExcludeRecursive" />
+    <e p="C:\Users\PC\Desktop\Projects\Common\Datatypes" t="IncludeFlat">
+      <e p="Datatypes" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BitInByte.cs" t="Include" />
+        <e p="Datatypes.csproj" t="IncludeRecursive" />
+        <e p="IConverter.cs" t="Include" />
+        <e p="IEquals.cs" t="Include" />
+        <e p="IntConverter.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Value.cs" t="Include" />
+      </e>
+      <e p="Datatypes.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

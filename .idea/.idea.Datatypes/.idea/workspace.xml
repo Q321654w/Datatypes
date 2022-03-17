@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b92d9c3-de64-42d4-82b2-c91a86369e55" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Datatypes/BitInByte.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Datatypes/BitInByte.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datatypes/IntConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Datatypes/IntConverter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datatypes/Value.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Datatypes/Value.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Datatypes/Value.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Datatypes/BitInByte.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Datatypes/IConverter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Datatypes/IEquals.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Datatypes/IntConverter.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Datatypes/Value.cs" />
+        <option value="$PROJECT_DIR$/Datatypes/BitInByte.cs" />
+        <option value="$PROJECT_DIR$/Datatypes/IntConverter.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="26WFQpK2NKixVB2Z7zEscF5D317" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b92d9c3-de64-42d4-82b2-c91a86369e55" name="Default Changelist" comment="" />
+      <created>1647531421588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647531421588</updated>
+      <workItem from="1647531429716" duration="629000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
