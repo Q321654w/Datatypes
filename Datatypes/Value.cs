@@ -9,7 +9,14 @@ namespace Datatypes
         private readonly BitInByte _bitInByte;
 
         public int BitsCount { get; }
-        
+
+        public Value(byte[] bytes, BitInByte bitInByte) : this
+        (
+            bytes, bitInByte.BitsCount(bytes[bytes.Length - 1]) + Math.Max(bitInByte.Value() * (bytes.Length - 1), 0),
+            bitInByte
+        )
+        {
+        }
 
         public Value(int bitsCount, BitInByte bitInByte) : this(
             new byte[Math.DivRem(bitsCount, bitInByte.Value(), out var mod) + mod > 0 ? 1 : 0], bitsCount, bitInByte)
